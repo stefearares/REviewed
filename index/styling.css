@@ -1,0 +1,80 @@
+/*body{
+  background:linear-gradient(45deg, #EEEEEE, #FAF8F9, #FFFFFF);
+}
+*/
+.navbar-default {
+  background: lightgray;
+}
+.navbar {
+  border: 0;
+  border-radius: 0;
+}
+ul.nav {
+  list-style: none;
+  border-right: 1px solid lightgray;
+}
+ul.nav li {
+  padding: 20px 0;
+  display: inline-block;
+}
+ul.nav li a {
+  padding: 20px 10px;
+  color: #fff;
+  position: relative;
+}
+ul.nav li a:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 60%;
+  right: 0;
+  background: white;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+ul.nav li:first-child a:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 60%;
+  left: 0;
+  background: white;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background: lightgray;
+}
+
+.cardulet1{
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  padding: 1em;
+  border: 0;
+  border-radius: 2em;
+  
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+.accordion{
+--bs-accordion-active-bg: lightgray;
+--bs-accordion-btn-focus-box-shadow: none;
+--bs-accordion-active-color: black;
+}
