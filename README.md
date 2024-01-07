@@ -54,8 +54,13 @@ Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Websit
 
 &nbsp;Limbaje de nivel înalt precum **HTML(front end)** și **CSS(front end)** prin care au fost realizate structura și stilizate paginile principale.
 **Javascript**(front end, utilizat pentru realizarea animaților și pentru creearea și apariția dinamică a erorilor pe paginile de login și sign up), **PHP**(back end, utilizat pentru procesele de login și afișare a melodiilor), **MySQL**(back end unde se vor reține date legate deutilizatori și melodii) precum și framework-uri și librării ce îmbunătățesc calitatea produsului și viteza în realizarea acestuia precum **Bootstrap**(front end, pentru ușurarea muncii pentru crearea paginilor și stilizării). 
-De asemenea sunt utilizate tehnologii pentru email automation precum **PHPMailer** pentru a anunța utilizatorii de noi modificări
+
+&nbsp;De asemenea sunt utilizate tehnologii pentru email automation precum **PHPMailer** pentru a anunța utilizatorii de noi modificări
 aduse website-ului.
+
+&nbsp;Bazele de date sunt realizate în **MySQL** utilizând un host pe calculatorul personal prin intermediul aplicației **XAMPP** și **MyPhpAdmin**.
+Acestea sunt împărțite în tabele distincte atât pentru melodii cât șipentru utilizatori. Bazele de date sunt împărțite în tabele de
+utilizatori în care sunt stocate date precum parole, username, email și rolul fiecarui utilizator și o tabelă care va reține titlurile melodiilor și descrieriile.
 
 ## Funcționalități
 
