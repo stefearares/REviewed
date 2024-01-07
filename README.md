@@ -38,10 +38,10 @@ utilizatorilor normali pentru a putea deveni la rândul lor “revieweri”.
 Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Website-ul are conturi speciale pentru critici de muzică, carepot să descrie și să voteze la rândul lor melodiile preferate.
 ”REviewed” nu se adresează tuturor: oamenilor de rând care vor săvadă clasamentele de melodii, pasionaților de muzică care vor să descopere melodii noi și criticilor care doresc să contribuie la ratingul melodiilor.
 
-## Funcționalități și proceses
+## Funcționalități
 
 <details open>
-<summary> <b>Funcționalităși:</b></summary>
+<summary> <b>Funcționalități:</b></summary>
 <br>
   <ul>
   <li>Postarea melodiilor.</li>
