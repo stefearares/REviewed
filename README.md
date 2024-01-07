@@ -46,9 +46,9 @@ Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Websit
 
 ![Diagrama claselor exemplu](documentatie-ghid-utlizare-raport/diagrame_clase2.png)
 
-&nbsp;**Prima imagine** reprezintă o diagramă care explică arhitectura proiectului bazată pe microservicii unde se evidențiază cele mai importante servicii fiind adăugare, căutare și ștergere precum și modul de functionare a acestora.
+&nbsp;**Prima imagine** reprezinta o diagramă generală a proiectului și a fiecărei pagini.
 
-&nbsp;**A doua imagine** prezintă un exemplu de diagramă a claselor în care funcția de CEO și cea de Manageri moștenește atributele și funcțiile clasei de baza Employee.
+&nbsp;**A doua imagine** fluxul de date și comunicarea acestora cu baza de date.
 
 ## Tehnologii utilizate
 
