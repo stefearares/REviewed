@@ -42,9 +42,9 @@ Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Websit
 
 &nbsp;Arhitectura proiectului este bazată pe **microservicii**, fiind oferite utilizatorilor numeroase funcțioanlități precum modificarea angajaților și căutarea acestora. De asemenea, proiectul are o arhitectură **modulară** codul sursă fiind împărțit în blocuri de dimensiuni reduse de cod pentru modificarea cu ușurință a acestora.
 
-![Exemplu de procese pentru arhitectura microserviciilor](documentatie-ghid-utlizare-raport/Vizualizarea_proceselor.png)
+![Exemplu de procese pentru arhitectura microserviciilor](Documentatie/poza1.png)
 
-![Diagrama claselor exemplu](documentatie-ghid-utlizare-raport/diagrame_clase2.png)
+![Diagrama fluxului de date](Documentatie/poza2.png)
 
 &nbsp;**Prima imagine** reprezinta o diagramă generală a proiectului și a fiecărei pagini.
 
