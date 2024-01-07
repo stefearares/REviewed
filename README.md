@@ -40,9 +40,10 @@ Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Websit
 
 ## Funcționalități și proceses
 
-&nbsp;Aplicația oferă numeroase funcționalități precum:
-
-<ul>
+<details open>
+<summary> <b>Funcționalităși:</b></summary>
+<br>
+  <ul>
   <li>Postarea melodiilor.</li>
   <li>Înregistrare și autentificare prin protecția împotriva username-urilor duplicate.</li>
   <li>Existența diferitelor roluri pentru utilizatori.</li>
@@ -52,6 +53,7 @@ Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Websit
 	<li>Funcția de sugestie a unei melodii neascultate de utilizator prin intermediul recomandărilor din baza de date.</li>
 	<li>Aspectul diferit pentru fiecare dimensiune a ecranului pentru păstrarea unui aspect uniform pe orice device(responsive).</li>
 </ul>
+</details>
 
 ## Tehnologii utilizate
 
