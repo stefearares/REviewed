@@ -29,29 +29,14 @@ utilizatorilor normali pentru a putea deveni la rândul lor “revieweri”.
   <ul>
     <li> Nume utilizator </li>
     <li> Rating acordat </li>
-    <li> Comentariu </li>
-    <li> Data recenziei </li>
   </ul>
 </details>
 
-<details open>
-<summary><b>Date de contact:</b></summary>
-<br>
-<li>Număr de telefon</li>
-<li>Adresa actuală</li>
-<li>Email</li> 
-</details>
 
-## Obiective
+## Audiența țintă
 
-* Utilizarea, familiarizarea și integrarea conceptelor de **OOP**(object oriented programming) într-un proiect informatic realizat în limbajul **Java**.
-* Utilizarea și crearea **bazelor de date** cu scopul integrării acestora într-un proiect informatic realizat în limbajul **Java**.
-  - Modificarea bazelor de date pentru a asigura **longetivitatea acestora**.
-   - Crearea metodelor pentru asigurarea interogărilor **eficiente** in bazele de date.
-* Realizarea unei interfețe grafice intuitive pentru utilizatori.
-* Crearea unei aplicații eficiente pentru crearea și căutarea obiectelor la un volum de date mare.
-* Realizarea unuei aplicații cu scopul comercializării.
-* Familiarizarea cu limbajul **Java** pentru utilizarea acestuia în cadrul unui proiect informatic.
+Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Website-ul are conturi speciale pentru critici de muzică, carepot să descrie și să voteze la rândul lor melodiile preferate.
+”REviewed” nu se adresează tuturor: oamenilor de rând care vor săvadă clasamentele de melodii, pasionaților de muzică care vor să descopere melodii noi și criticilor care doresc să contribuie la ratingul melodiilor.
 
 ## Arhitectura
 
@@ -65,9 +50,13 @@ utilizatorilor normali pentru a putea deveni la rândul lor “revieweri”.
 
 &nbsp;**A doua imagine** prezintă un exemplu de diagramă a claselor în care funcția de CEO și cea de Manageri moștenește atributele și funcțiile clasei de baza Employee.
 
-## Baze de date
+## Tehnologii utilizate
 
-&nbsp;Datele reținute în interiorul atributelor, precum și instanțele claselor vor fi reținute în baze de date specifice precum: fișiere și în MySQL(sau SQLite) pentru a asigura persistența datelor. De asemenea toate operațiile precum cele de: adăugare, ștergere, actualizare și căutare vor fi efectuate asupra tabelelor din baza de date și vor modificat într-un mod activ aceste tabele.
+&nbsp;Limbaje de nivel înalt precum **HTML(front end)** și **CSS(front end)** prin care au fost realizate structura și stilizate paginile principale.
+**Javascript**(front end, utilizat pentru realizarea animaților și pentru creearea și apariția dinamică a erorilor pe paginile de login și sign up), **PHP**(back end, utilizat pentru procesele de login și afișare a melodiilor), **MySQL**(back end unde se vor reține date legate deutilizatori și melodii) precum și framework-uri și librării ce îmbunătățesc calitatea produsului și viteza în realizarea acestuia precum **Bootstrap**(front end, pentru ușurarea muncii pentru crearea paginilor și stilizării). 
+De asemenea sunt utilizate tehnologii pentru email automation precum **PHPMailer** pentru a anunța utilizatorii de noi modificări
+aduse website-ului.
+
 ## Funcționalități
 
 &nbsp;Aplicația oferă numeroase funcționalități utile atât în corporații cât și în firme mici care facilitează gestionarea bazelor de date într-o manieră intuitivă, rapidă pentru utilizator și eficientă pentru bazele de date.
