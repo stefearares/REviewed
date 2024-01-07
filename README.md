@@ -38,15 +38,19 @@ utilizatorilor normali pentru a putea deveni la rândul lor “revieweri”.
 Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Website-ul are conturi speciale pentru critici de muzică, carepot să descrie și să voteze la rândul lor melodiile preferate.
 ”REviewed” nu se adresează tuturor: oamenilor de rând care vor săvadă clasamentele de melodii, pasionaților de muzică care vor să descopere melodii noi și criticilor care doresc să contribuie la ratingul melodiilor.
 
-## Funcționalități
+## Funcționalități și proceses
 
-&nbsp;Aplicația oferă numeroase funcționalități utile atât în corporații cât și în firme mici care facilitează gestionarea bazelor de date într-o manieră intuitivă, rapidă pentru utilizator și eficientă pentru bazele de date.
+&nbsp;Aplicația oferă numeroase funcționalități precum:
 
 <ul>
-  <li><b>Căutare</b>: utilizatorul poate căuta în baza de date angajați în funcție de anumite atribute precum CNP, numărul de angajat, nume și număr de telefon.</li>
-  <li><b>Actualizare</b>: utilizatorul poate actualiza cu ușurință datele unui angajat precum: departamentul, numărul de telefon și adresa.</li>
-  <li><b>Adăugare</b>: utilizatorul poate adăuga noi angajați în baza de date cu mecanisme de protecție împtriva duplicatelor precum: verificare în funcție de CNP-ul unic.</li>
-  <li><b>Ștergere</b>: utilizatorul poate șterge angajați din baza de date cu ușurință și în siguranță datorita mecanismului de protecție ce necesită confirmarea acțiunii.</li>
+  <li>Postarea melodiilor.</li>
+  <li>Înregistrare și autentificare prin protecția împotriva username-urilor duplicate.</li>
+  <li>Existența diferitelor roluri pentru utilizatori.</li>
+  <li>Posibilitatea schimbării rolurilor prin cereri ce pot fi aprobate.</li>
+	<li>Trimiterea notificărilor legate de notăți prin mail-uri automate.</li>
+	<li>Existența unui chestionar prin care utilizatorii își pot evalua cunoștiințele legate de cultura muzicala.</li>
+	<li>Funcția de sugestie a unei melodii neascultate de utilizator prin intermediul recomandărilor din baza de date.</li>
+	<li>Aspectul diferit pentru fiecare dimensiune a ecranului pentru păstrarea unui aspect uniform pe orice device(responsive).</li>
 </ul>
 
 ## Tehnologii utilizate
