@@ -38,17 +38,16 @@ utilizatorilor normali pentru a putea deveni la rândul lor “revieweri”.
 Utilizatorii “Reviewed” nu se restrâng doar la utilizatorii derând. Website-ul are conturi speciale pentru critici de muzică, carepot să descrie și să voteze la rândul lor melodiile preferate.
 ”REviewed” nu se adresează tuturor: oamenilor de rând care vor săvadă clasamentele de melodii, pasionaților de muzică care vor să descopere melodii noi și criticilor care doresc să contribuie la ratingul melodiilor.
 
-## Arhitectura
+## Funcționalități
 
-&nbsp;Arhitectura proiectului este bazată pe **microservicii**, fiind oferite utilizatorilor numeroase funcțioanlități precum modificarea angajaților și căutarea acestora. De asemenea, proiectul are o arhitectură **modulară** codul sursă fiind împărțit în blocuri de dimensiuni reduse de cod pentru modificarea cu ușurință a acestora.
+&nbsp;Aplicația oferă numeroase funcționalități utile atât în corporații cât și în firme mici care facilitează gestionarea bazelor de date într-o manieră intuitivă, rapidă pentru utilizator și eficientă pentru bazele de date.
 
-![Exemplu de procese pentru arhitectura microserviciilor](Documentatie/poza1.png)
-
-![Diagrama fluxului de date](Documentatie/poza2.png)
-
-&nbsp;**Prima imagine** reprezinta o diagramă generală a proiectului și a fiecărei pagini.
-
-&nbsp;**A doua imagine** fluxul de date și comunicarea acestora cu baza de date.
+<ul>
+  <li><b>Căutare</b>: utilizatorul poate căuta în baza de date angajați în funcție de anumite atribute precum CNP, numărul de angajat, nume și număr de telefon.</li>
+  <li><b>Actualizare</b>: utilizatorul poate actualiza cu ușurință datele unui angajat precum: departamentul, numărul de telefon și adresa.</li>
+  <li><b>Adăugare</b>: utilizatorul poate adăuga noi angajați în baza de date cu mecanisme de protecție împtriva duplicatelor precum: verificare în funcție de CNP-ul unic.</li>
+  <li><b>Ștergere</b>: utilizatorul poate șterge angajați din baza de date cu ușurință și în siguranță datorita mecanismului de protecție ce necesită confirmarea acțiunii.</li>
+</ul>
 
 ## Tehnologii utilizate
 
@@ -62,19 +61,14 @@ Acestea sunt împărțite în tabele distincte atât pentru melodii cât șipent
 utilizatori în care sunt stocate date precum parole, username, email și rolul fiecarui utilizator și o tabelă care va reține titlurile melodiilor și descrieriile.</li>
 </ul>
 
-## Funcționalități
+## Arhitectura
 
-&nbsp;Aplicația oferă numeroase funcționalități utile atât în corporații cât și în firme mici care facilitează gestionarea bazelor de date într-o manieră intuitivă, rapidă pentru utilizator și eficientă pentru bazele de date.
+&nbsp;Arhitectura proiectului este bazată pe **microservicii**, fiind oferite utilizatorilor numeroase funcțioanlități precum modificarea angajaților și căutarea acestora. De asemenea, proiectul are o arhitectură **modulară** codul sursă fiind împărțit în blocuri de dimensiuni reduse de cod pentru modificarea cu ușurință a acestora.
 
-<ul>
-  <li><b>Căutare</b>: utilizatorul poate căuta în baza de date angajați în funcție de anumite atribute precum CNP, numărul de angajat, nume și număr de telefon.</li>
-  <li><b>Actualizare</b>: utilizatorul poate actualiza cu ușurință datele unui angajat precum: departamentul, numărul de telefon și adresa.</li>
-  <li><b>Adăugare</b>: utilizatorul poate adăuga noi angajați în baza de date cu mecanisme de protecție împtriva duplicatelor precum: verificare în funcție de CNP-ul unic.</li>
-  <li><b>Ștergere</b>: utilizatorul poate șterge angajați din baza de date cu ușurință și în siguranță datorita mecanismului de protecție ce necesită confirmarea acțiunii.</li>
-</ul>
+![Exemplu de procese pentru arhitectura microserviciilor](Documentatie/poza2.png)
 
-## Exemple de utilizare
+![Diagrama fluxului de date](Documentatie/poza1.png)
 
-&nbsp;Un exemplu de utilizare ar fi într-o companie care are aplicația implementată in sistemul lor. Operatorul care utilizează aplicația vrea să afle numărul de angajat al lui Ion Popescu dar nu îi cunoaște decât numele. Operatorul va folosi funcția de căutare pentru a interoga baza de date iar dacă acest Ion Popescu nu este prezent în baza de date va utiliza funcția de adăugare a acestuia în baza de date a companiei. Aplicația este gândită pentru a putea fi utilizată în orice fel de companii, indiferent de numărul de angajați.
+&nbsp;**Prima imagine** reprezinta o diagramă generală a proiectului și a fiecărei pagini.
 
-&nbsp;Un alt exemplu ar fi o mică firma care dorește să aiba informațiile legate de angajații lor la îndemnă pentru controale sau diferite situații (precum plecarea și venirea frecventă a noilor angajați), fără a pierde bani și timp pentru menținerea informațiilor pe hârtie și depozitarea acestora în locuri special amenajate pentru depozitarea informațiilor. Proprietarul poate să facă modificări în baza de date de la propriul calculator.
+&nbsp;**A doua imagine** fluxul de date și comunicarea acestora cu baza de date.
